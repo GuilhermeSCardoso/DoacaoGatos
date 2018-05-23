@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/login_margem_2"
+    tools:context="com.example.cardoso.doacaogatos.GatoActivity">
+
+    <ImageView
+        android:id="@+id/fotoGatoImageView"
+        android:layout_width="@dimen/foto"
+        android:layout_height="@dimen/foto"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/cat"
+        android:contentDescription="@string/foto_do_gato"/>
+
+    <TextView
+        android:id="@+id/descricaoTituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/editar_2"
+        android:text="@string/descricao"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/descricaoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_margem_2"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ligarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/menu_margem"
+        android:background="@color/colorAccent"
+        android:text="@string/ligar"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:padding="@dimen/direita"
+        android:elevation="@dimen/login_margem"
+        android:contentDescription="@string/ligar_dono"/>
+
+</LinearLayout>

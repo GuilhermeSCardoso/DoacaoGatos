@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "58981751782",
+    "firebase_url": "https://doacaogatos-dadde.firebaseio.com",
+    "project_id": "doacaogatos-dadde",
+    "storage_bucket": "doacaogatos-dadde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58981751782:android:918161f0534a7ee4",
+        "android_client_info": {
+          "package_name": "com.example.cardoso.doacaogatos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58981751782-86t3pri0euenbk7pgv4e2fojij5nmlta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cardoso.doacaogatos",
+            "certificate_hash": "bc22bd3fc976b76be83a60601e63f1fc74786064"
+          }
+        },
+        {
+          "client_id": "58981751782-oftd3glro6r5udbup0r2563ggpe1abdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFibSw4tIvurUR4G--cJholTc25PME3DI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58981751782-oftd3glro6r5udbup0r2563ggpe1abdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

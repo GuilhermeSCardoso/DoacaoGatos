@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:orientation="vertical"
+    android:layout_weight="0"
+    tools:context="com.example.cardoso.doacaogatos.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/login_margem">
+
+        <EditText
+            android:id="@+id/loginEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:inputType="textEmailAddress"
+            android:hint="@string/login"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="@dimen/login_margem"
+            android:maxLength="30"/>
+
+        <EditText
+            android:id="@+id/senhaEntrarEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:inputType="textPassword"
+            android:hint="@string/senha"
+            android:layout_marginTop="@dimen/login_margem"
+            android:maxLength="30"/>
+
+        <Button
+            android:id="@+id/entrarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:text="@string/entrar"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/login_margem"
+            android:padding="@dimen/direita"
+            android:elevation="@dimen/login_margem"
+            android:contentDescription="@string/entrar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0"
+        android:layout_gravity="bottom|center">
+
+        <Button
+            android:id="@+id/cadastroButton"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom|center"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/cadastro"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/cadastro_margem"
+            android:padding="@dimen/direita"
+            android:elevation="@dimen/login_margem"
+            android:contentDescription="@string/cadastro"/>
+
+    </LinearLayout>
+
+</LinearLayout>

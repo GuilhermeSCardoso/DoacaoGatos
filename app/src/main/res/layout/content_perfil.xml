@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/login_margem_2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cardoso.doacaogatos.PerfilActivity"
+    tools:showIn="@layout/activity_perfil">
+
+    <ImageButton
+        android:id="@+id/fotoButton"
+        android:layout_width="@dimen/foto"
+        android:layout_height="@dimen/foto"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/login_margem"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/perfil"
+        android:contentDescription="@string/foto_do_usuario"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foto_usuario"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foto_usuario_2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/nomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editar_2"
+        android:layout_marginLeft="@dimen/direita"
+        android:layout_marginTop="@dimen/login_margem"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/editar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_completo"/>
+
+    <TextView
+        android:id="@+id/telefoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editar_2"
+        android:layout_marginLeft="@dimen/direita"
+        android:layout_marginTop="@dimen/login_margem"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/editar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/telefone"/>
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editar_2"
+        android:layout_marginLeft="@dimen/direita"
+        android:layout_marginTop="@dimen/login_margem"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/editar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"/>
+
+    <Button
+        android:id="@+id/editarButton"
+        android:layout_width="@dimen/salvar_margem"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:text="@string/editar"
+        android:layout_marginTop="@dimen/editar_2"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:padding="@dimen/direita"
+        android:elevation="@dimen/login_margem"
+        android:contentDescription="@string/editar_usuario"/>
+
+</LinearLayout>

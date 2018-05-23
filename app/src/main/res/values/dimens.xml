@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_margem">25dp</dimen>
+    <dimen name="login_margem_2">10dp</dimen>
+    <dimen name="menu_margem">80dp</dimen>
+    <dimen name="cadastro_margem">16dp</dimen>
+    <dimen name="salvar_margem">120dp</dimen>
+    <dimen name="foto">200dp</dimen>
+    <dimen name="editar">20dp</dimen>
+    <dimen name="direita">1dp</dimen>
+    <dimen name="editar_2">35dp</dimen>
+    <dimen name="botao">50dp</dimen>
+</resources>

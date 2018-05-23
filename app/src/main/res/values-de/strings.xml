@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Benutzer</string>
+    <string name="senha">Passwort</string>
+    <string name="entrar">Eintreten</string>
+    <string name="cadastro">Kontaktieren Sie uns!</string>
+    <string name="perfil">Mein Profil</string>
+    <string name="adotar">Adoptiere Katzen</string>
+    <string name="disponibilizar">Machen Sie es für die Annahme verfügbar</string>
+    <string name="sair">um zu gehen</string>
+    <string name="nome_completo">Name</string>
+    <string name="telefone">Telefon</string>
+    <string name="email">E-mail/Benutzer</string>
+    <string name="salvar">um zu speichern</string>
+    <string name="editar">bearbeiten</string>
+    <string name="cadastro_realizado">Erfolgreiche Registrierung!</string>
+    <string name="campos">Alle Felder sind erforderlich!</string>
+    <string name="foto_gato">Mach ein Foto von deiner Katze</string>
+    <string name="descricao">Eigenschaften</string>
+    <string name="erro_login">Falscher Benutzer und Passwort!</string>
+    <string name="login_senha_vazio">Geben Sie Benutzername und Passwort ein!</string>
+    <string name="foto_usuario">Klicken Sie auf das Bild, um ein Bild aufzunehmen</string>
+    <string name="dados_alterados">Daten wurden erfolgreich geändert!</string>
+    <string name="selecione_foto">Wähle ein Foto aus!</string>
+    <string name="foto_usuario_2">Langer Klick, um ein Galeriefoto auszuwählen</string>
+    <string name="ligar">anrufen</string>
+    <string name="foto_do_gato">Katze Foto</string>
+    <string name="salvar_gato">Katzendaten speichern</string>
+    <string name="salvar_usuario">Benutzerdaten speichern</string>
+    <string name="ligar_dono">Rufe den Katzenbesitzer an</string>
+    <string name="perfil_usuario">Profil ansehen</string>
+    <string name="editar_usuario">Benutzerdaten bearbeiten</string>
+    <string name="foto_do_usuario">Benutzerprofilfoto</string>
+    <string name="descricao_vazia">Geben Sie die Merkmale der Katze ein!</string>
+    <string name="alerta_gps">Um Koordinaten anzuzeigen, benötigt die APP das GPS!</string>
+</resources>

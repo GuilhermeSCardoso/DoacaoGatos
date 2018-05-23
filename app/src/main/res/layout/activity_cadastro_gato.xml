@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/login_margem_2"
+    tools:context="com.example.cardoso.doacaogatos.CadastroGatoActivity">
+
+    <Button
+        android:id="@+id/tirarFotoGatoButton"
+        android:layout_width="@dimen/salvar_margem"
+        android:layout_height="@dimen/botao"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:text="@string/foto_gato"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:elevation="@dimen/login_margem"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/login_margem"
+        android:padding="@dimen/direita"
+        android:contentDescription="@string/foto_gato"/>
+
+    <ImageView
+        android:id="@+id/fotoGatoCadastroImageView"
+        android:layout_width="@dimen/foto"
+        android:layout_height="@dimen/foto"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/cat"
+        android:layout_marginTop="@dimen/login_margem"
+        android:contentDescription="@string/foto_do_gato"/>
+
+    <EditText
+        android:id="@+id/descricaoEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="16"
+        android:hint="@string/descricao"
+        android:inputType="textShortMessage|textMultiLine"
+        android:maxLength="120"
+        android:layout_marginTop="@dimen/login_margem_2"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/salvarGatoButton"
+        android:layout_width="@dimen/salvar_margem"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="@string/salvar"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:elevation="@dimen/login_margem"
+        android:layout_marginTop="@dimen/editar_2"
+        android:padding="@dimen/direita"
+        android:contentDescription="@string/salvar_gato"/>
+
+</LinearLayout>

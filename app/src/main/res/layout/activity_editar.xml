@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/login_margem"
+    tools:context="com.example.cardoso.doacaogatos.EditarActivity">
+
+    <EditText
+        android:id="@+id/nomeEditarEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nome_completo"
+        android:layout_marginTop="@dimen/login_margem"
+        android:layout_marginBottom="@dimen/login_margem"
+        android:maxLength="30"/>
+
+    <EditText
+        android:id="@+id/telefoneEditarEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/telefone"
+        android:layout_marginBottom="@dimen/login_margem"
+        android:maxLength="9"/>
+
+    <EditText
+        android:id="@+id/emailEditarEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:layout_marginBottom="@dimen/login_margem"
+        android:maxLength="30"/>
+
+    <EditText
+        android:id="@+id/senhaEditarEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/senha"
+        android:layout_marginBottom="@dimen/login_margem"
+        android:maxLength="30"/>
+
+    <Button
+        android:id="@+id/salvarEditarButton"
+        android:layout_width="@dimen/salvar_margem"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/salvar_margem"
+        android:background="@color/colorAccent"
+        android:elevation="@dimen/login_margem"
+        android:text="@string/salvar"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:padding="@dimen/direita"
+        android:contentDescription="@string/salvar_usuario"/>
+
+</LinearLayout>

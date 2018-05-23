@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/menu_margem"
+    tools:context="com.example.cardoso.doacaogatos.MenuActivity">
+
+    <Button
+        android:id="@+id/meuPerfilButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/perfil"
+        android:layout_margin="@dimen/login_margem_2"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:padding="@dimen/direita"
+        android:elevation="@dimen/login_margem"
+        android:contentDescription="@string/perfil_usuario"/>
+
+    <Button
+        android:id="@+id/adotarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adotar"
+        android:layout_margin="@dimen/login_margem_2"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:padding="@dimen/direita"
+        android:elevation="@dimen/login_margem"
+        android:contentDescription="@string/adotar"/>
+
+    <Button
+        android:id="@+id/disponibilizarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/disponibilizar"
+        android:layout_margin="@dimen/login_margem_2"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:padding="@dimen/direita"
+        android:elevation="@dimen/login_margem"
+        android:contentDescription="@string/disponibilizar"/>
+
+    <Button
+        android:id="@+id/sairButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sair"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/menu_margem"
+        android:padding="@dimen/direita"
+        android:elevation="@dimen/login_margem"
+        android:contentDescription="@string/sair"/>
+
+</LinearLayout>

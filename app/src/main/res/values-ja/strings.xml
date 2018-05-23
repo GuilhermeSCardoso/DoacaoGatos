@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">ユーザー</string>
+    <string name="senha">パスワード</string>
+    <string name="entrar">サインイン</string>
+    <string name="cadastro">私たちについて|</string>
+    <string name="perfil">私のプロフィール</string>
+    <string name="adotar">猫を採用</string>
+    <string name="disponibilizar">採用を可能にする</string>
+    <string name="sair">出口</string>
+    <string name="nome_completo">名前</string>
+    <string name="telefone">電話番号</string>
+    <string name="email">電子メール</string>
+    <string name="salvar">保存する</string>
+    <string name="editar">編集</string>
+    <string name="cadastro_realizado">成功した登録</string>
+    <string name="campos">すべてのフィールドが必要です</string>
+    <string name="foto_gato">あなたの猫の写真を撮る</string>
+    <string name="descricao">特徴</string>
+    <string name="erro_login">不正なユーザーとパスワード</string>
+    <string name="login_senha_vazio">ユーザー名とパスワードを入力してください</string>
+    <string name="foto_usuario">写真をクリックして写真を撮る</string>
+    <string name="dados_alterados">データが正常に変更されました</string>
+    <string name="selecione_foto">写真を選択</string>
+    <string name="foto_usuario_2">ロングクリックしてギャラリー写真を選択</string>
+    <string name="ligar">電源を入れる</string>
+    <string name="foto_do_gato">猫の写真</string>
+    <string name="salvar_gato">キャットデータを保存する</string>
+    <string name="salvar_usuario">ユーザーデータを保存する</string>
+    <string name="ligar_dono">猫のオーナーに電話する</string>
+    <string name="perfil_usuario">プロフィールを見る</string>
+    <string name="editar_usuario">ユーザーデータの編集</string>
+    <string name="foto_do_usuario">ユーザープロフィール写真</string>
+    <string name="descricao_vazia">猫の特徴を入力してください</string>
+    <string name="alerta_gps">がを必要とする座標を表示する</string>
+</resources>

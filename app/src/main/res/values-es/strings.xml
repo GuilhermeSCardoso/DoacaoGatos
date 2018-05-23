@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Usuario</string>
+    <string name="senha">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastro">Registrarse!</string>
+    <string name="perfil">Mi Perfil</string>
+    <string name="adotar">Adoptar Gatos</string>
+    <string name="disponibilizar">Disponible Para La Adopción</string>
+    <string name="sair">Salir</string>
+    <string name="nome_completo">Nombre</string>
+    <string name="telefone">Teléfono</string>
+    <string name="email">Correo Electrónico/Usuario</string>
+    <string name="salvar">Salvar</string>
+    <string name="editar">Editar</string>
+    <string name="cadastro_realizado">Registro Realizado Con Éxito!</string>
+    <string name="campos">Todos Los Campos Son Obligatorios!</string>
+    <string name="foto_gato">Tira Una Foto De Tu Gato</string>
+    <string name="descricao">Características</string>
+    <string name="erro_login">Usuario y Contraseña Incorrecto!</string>
+    <string name="login_senha_vazio">Entre Con Usuario e Contraseña!</string>
+    <string name="foto_usuario">Haga clic en la imagen para foto</string>
+    <string name="dados_alterados">Datos Cambiados Con Éxito!</string>
+    <string name="selecione_foto">Seleccione Una Foto!</string>
+    <string name="foto_usuario_2">Haga clic largo para elegir foto de la galería</string>
+    <string name="ligar">Llamar</string>
+    <string name="foto_do_gato">Foto del Gato</string>
+    <string name="salvar_gato">Salvar Datos del Gato</string>
+    <string name="salvar_usuario">Salvar Datos del Usuario</string>
+    <string name="ligar_dono">Llamar el Dueño del Gato</string>
+    <string name="perfil_usuario">Perfil del Usuario</string>
+    <string name="editar_usuario">Editar Datos del Usuario</string>
+    <string name="foto_do_usuario">Foto del Perfil del Usuario</string>
+    <string name="descricao_vazia">Insira las Características del Gato!</string>
+    <string name="alerta_gps">Para ver Coordenadas el APP Necesita el GPS!</string>
+</resources>

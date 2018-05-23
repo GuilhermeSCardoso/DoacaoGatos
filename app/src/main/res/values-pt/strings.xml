@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastro">Cadastre-se!</string>
+    <string name="perfil">Meu Perfil</string>
+    <string name="adotar">Adotar Gatos</string>
+    <string name="disponibilizar">Disponibilizar Para Adoção</string>
+    <string name="sair">Sair</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">E-mail/Usuário</string>
+    <string name="salvar">Salvar</string>
+    <string name="editar">Editar</string>
+    <string name="cadastro_realizado">Cadastro Realizado Com Sucesso!</string>
+    <string name="campos">Todos Os Campos São Obrigatórios!</string>
+    <string name="foto_gato">Tire Uma Foto Do Seu Gato</string>
+    <string name="descricao">Características</string>
+    <string name="erro_login">Usuário e Senha Incorretos!</string>
+    <string name="login_senha_vazio">Insira Usuário e Senha!</string>
+    <string name="foto_usuario">Clique na imagem para tirar uma foto</string>
+    <string name="dados_alterados">Dados Alterados Com Sucesso!</string>
+    <string name="selecione_foto">Selecione Uma Foto!</string>
+    <string name="foto_usuario_2">Clique longo para escolher foto da galeria</string>
+    <string name="ligar">Ligar</string>
+    <string name="foto_do_gato">Foto do Gato</string>
+    <string name="salvar_gato">Salvar Dados do Gato</string>
+    <string name="salvar_usuario">Salvar Dados do Usuário</string>
+    <string name="ligar_dono">Ligar Para o Dono do Gato</string>
+    <string name="perfil_usuario">Perfil do Usuário</string>
+    <string name="editar_usuario">Editar Dados do Usuário</string>
+    <string name="foto_do_usuario">Foto de Perfil do Usuário</string>
+    <string name="descricao_vazia">Insira as Características do Gato!</string>
+    <string name="alerta_gps">Para Exibir Coordenadas o App Precisa do GPS!</string>
+</resources>
